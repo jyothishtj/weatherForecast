@@ -6,8 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 axios, momentjs
 
 ## How the run the application
-Perform _**npm install**_ to install the dependencies
-perform _**npm start**_ ro run the app. This will open the application in http://localhost:3000/
+1. Perform _**npm install**_ to install the dependencies
+2. perform _**npm start**_ ro run the app. This will open the application in http://localhost:3000/
 
 ## Application screenshots
 #Dektop view

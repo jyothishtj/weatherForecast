@@ -1,6 +1,13 @@
 import React from "react";
-import {SearchWeather} from "./SearchWeather";
+import {ForecastResult} from "./ForecastResult";
+import styles from "./WeatherForecast.module.css";
 
 export const ForecastResults = (forecasts) => {
-  return forecasts.map((item) => <ForecastResult forecast={forecasts} />);
+  return (
+    <div className={styles.forecasts}>
+      {forecasts.forecast.data.daily.map((forecast) => (
+        <ForecastResult forecast={forecast} />
+      ))}
+    </div>
+  );
 };
